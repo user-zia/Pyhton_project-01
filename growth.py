@@ -2,6 +2,8 @@ import pandas as pd
 import streamlit as st
 import os
 from io import BytesIO
+import openpyxl
+
 
 # Custom CSS
 st.set_page_config(page_title="Data sweeper", layout='wide') 

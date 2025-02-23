@@ -11,6 +11,7 @@ st.markdowm(
     background-color : black ;
     color : white ;
     }
+    </style>
     """,
     unsafe_allow_html= True
 )

@@ -2,15 +2,16 @@ import pandas as pd
 import streamlit as st
 import os
 from io import BytesIO
-st.set_page_config( page_title="Data sweeper", layout='wide')
-#  custum css  
+
+#  custum css
+st.set_page_config( page_title="Data sweeper", layout='wide')  
 st.markdowm(
     """
     <style>
     .stApp{
-    background-color : black ;
-    color : white ;
-    }
+     background-color : black ;
+     color : white ;
+     }
     </style>
     """,
     unsafe_allow_html= True

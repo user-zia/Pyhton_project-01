@@ -2,7 +2,6 @@ import pandas as pd
 import streamlit as st
 import os
 from io import BytesIO
-import openpyxl
 
 
 # Custom CSS

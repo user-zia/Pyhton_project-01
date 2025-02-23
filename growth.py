@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 import os
 from io import BytesIO
-st.set_page_config( page_title=="Data sweeper", layout='wide')
+st.set_page_config( page_title="Data sweeper", layout='wide')
 #  custum css  
 st.markdowm(
     """
@@ -37,7 +37,7 @@ if upload_files:
 
     # Data Cleaning 
     st.subheader("Data Cleaning Options")
-    if st.checkbox(f"clean data for {file.name}")
+    if st.checkbox(f"clean data for {file.name}"):
        col1, col2 =st.columns(2)
 
        with col1:
